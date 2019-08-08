@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/hd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="Biodata"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Nama"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/txt1"
+        android:hint="Masukkan Nama"
+        android:textColorHint="#FFFFFF"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Kelas"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/txt2"
+        android:hint="Masukkan Kelas"
+        android:textColorHint="#FFFFFF"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Jurusan"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/txt3"
+        android:hint="Masukkan Jurusan"
+        android:textColorHint="#FFFFFF"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Next"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>
